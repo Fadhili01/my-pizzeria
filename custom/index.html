@@ -30,103 +30,34 @@
             </div>
             <form id="ordersForm">
                 <div id="newOrders">
-                    <div class="row">
-                        <div class="col-12 text-right">
-                            <span class="cancelOrder"><span class="fa fa-times-circle"></span></span>
+                    <div class="newDesign">
+                        <div class="row">
+                            <div class="col-12 text-right">
+                                <span class="cancelOrder"><span class="fa fa-times-circle"></span></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 form-group">
-                            <input id="creationName" type="text" class="form-control" placeholder="Name your creation" required>
-                        </div>
-                    </div> 
-                    <br>
-                    <h2>Select your preferred pizza size:</h2>
-                        <div class="radio">
-                            <input type="radio" name="size" value="Small" id="small">
-                            <label for="small">Small</label>
-                        </div>
-                        <div class="radio">
-                            <input type="radio" name="size" value="Medium" id="medium">
-                            <label for="medium">Medium</label>
-                        </div>
-                        <div class="radio">
-                            <input type="radio" name="size" value="Large" id="large">
-                            <label for="large">Large</label>
+                        <div class="row">
+                            <div class="col-12 form-group">
+                                <input id="creationName" type="text" class="form-control" placeholder="Name your creation" required>
+                            </div>
                         </div> 
-                    <br> 
-                    <h2>Choose your desired crust:</h2>
-                    <div class="row">
-                        <table class="table table-borderless table-sm">
-                            <thead>
-                                <th scope="col"></th>
-                                <th scope="col">Small</th>
-                                <th scope="col">Medium</th>
-                                <th scope="col">Large</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="radio">
-                                            <input type="radio" value="Neapolitan" name="crust" id="neapolitan">
-                                            <label for="neapolitan">Neapolitan</label>
-                                        </div>
-                                    </td>
-                                    <td>500</td>
-                                    <td>700</td>
-                                    <td>900</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="radio">
-                                            <input type="radio" value="Sicilian" name="crust" id="sicilian">
-                                            <label for="sicilian">Sicilian</label>
-                                        </div>
-                                    </td>
-                                    <td>600</td>
-                                    <td>800</td>
-                                    <td>1000</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="radio">
-                                            <input type="radio" value="Stuffed" name="crust" id="stuffed">
-                                            <label for="stuffed">Stuffed</label>
-                                        </div>
-                                    </td>
-                                    <td>650</td>
-                                    <td>850</td>
-                                    <td>1050</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="radio">
-                                            <input type="radio" value="Deepdish" name="crust" id="deep-dish">
-                                            <label for="deep-dish">Deep Dish</label>
-                                        </div>
-                                    </td>
-                                    <td>700</td>
-                                    <td>900</td>
-                                    <td>1100</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="radio">
-                                            <input type="radio" value="Glutenfree" name="crust" id="gluten-free">
-                                            <label for="gluten-free">Gluten Free</label>
-                                        </div>
-                                    </td>
-                                    <td>1000</td>
-                                    <td>1200</td>
-                                    <td>1400</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <br>
-                    <h2>Add the toppings that would best suit your creation:</h2>
-                    <div class="row">
-                        <div class="col-md-6">
+                        <br>
+                        <h2>Select your preferred pizza size:</h2>
+                            <div class="radio">
+                                <input type="radio" name="size" value="Small" id="small">
+                                <label for="small">Small</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="size" value="Medium" id="medium">
+                                <label for="medium">Medium</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="size" value="Large" id="large">
+                                <label for="large">Large</label>
+                            </div> 
+                        <br> 
+                        <h2>Choose your desired crust:</h2>
+                        <div class="row">
                             <table class="table table-borderless table-sm">
                                 <thead>
                                     <th scope="col"></th>
@@ -137,138 +68,209 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Mushrooms" id="mushrooms">
-                                                <label for="mushrooms">Mushrooms</label>
+                                            <div class="radio">
+                                                <input type="radio" value="Neapolitan" name="crust" id="neapolitan">
+                                                <label for="neapolitan">Neapolitan</label>
                                             </div>
                                         </td>
-                                        <td>50</td>
-                                        <td>60</td>
-                                        <td>70</td>
+                                        <td>500</td>
+                                        <td>700</td>
+                                        <td>900</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Greenpeppers" id="green-peppers">
-                                                <label for="green-peppers">Green Peppers</label>
+                                            <div class="radio">
+                                                <input type="radio" value="Sicilian" name="crust" id="sicilian">
+                                                <label for="sicilian">Sicilian</label>
                                             </div>
                                         </td>
-                                        <td>50</td>
-                                        <td>60</td>
-                                        <td>70</td>
+                                        <td>600</td>
+                                        <td>800</td>
+                                        <td>1000</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Blackolives" id="black-olives">
-                                                <label for="black-olives">Black Olives</label>
+                                            <div class="radio">
+                                                <input type="radio" value="Stuffed" name="crust" id="stuffed">
+                                                <label for="stuffed">Stuffed</label>
                                             </div>
                                         </td>
-                                        <td>50</td>
-                                        <td>60</td>
-                                        <td>70</td>
+                                        <td>650</td>
+                                        <td>850</td>
+                                        <td>1050</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Pineapples" id="pineapples">
-                                                <label for="pineapples">Pineapples</label>
+                                            <div class="radio">
+                                                <input type="radio" value="Deepdish" name="crust" id="deep-dish">
+                                                <label for="deep-dish">Deep Dish</label>
                                             </div>
                                         </td>
-                                        <td>50</td>
-                                        <td>60</td>
-                                        <td>80</td>
+                                        <td>700</td>
+                                        <td>900</td>
+                                        <td>1100</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Pepperoni" id="pepperoni">
-                                                <label for="pepperoni">Pepperoni</label>
+                                            <div class="radio">
+                                                <input type="radio" value="Glutenfree" name="crust" id="gluten-free">
+                                                <label for="gluten-free">Gluten Free</label>
                                             </div>
                                         </td>
-                                        <td>60</td>
-                                        <td>90</td>
-                                        <td>100</td>
+                                        <td>1000</td>
+                                        <td>1200</td>
+                                        <td>1400</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div class="col-md-6">
-                            <table class="table table-borderless table-sm">
-                                <thead>
-                                    <th scope="col"></th>
-                                    <th scope="col">Small</th>
-                                    <th scope="col">Medium</th>
-                                    <th scope="col">Large</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Sausage" id="sausage">
-                                                <label for="sausage">Sausage</label>
-                                            </div>
-                                        </td>
-                                        <td>80</td>
-                                        <td>90</td>
-                                        <td>120</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Ham" id="ham">
-                                                <label for="ham">Ham</label>
-                                            </div>
-                                        </td>
-                                        <td>90</td>
-                                        <td>100</td>
-                                        <td>110</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Bacon" id="bacon">
-                                                <label for="bacon">Bacon</label>
-                                            </div>
-                                        </td>
-                                        <td>100</td>
-                                        <td>120</td>
-                                        <td>140</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Beef" id="beef">
-                                                <label for="beef">Beef</label>
-                                            </div>
-                                        </td>
-                                        <td>100</td>
-                                        <td>120</td>
-                                        <td>140</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" name="toppings" value="Pork" id="pork">
-                                                <label for="pork">Pork</label>
-                                            </div>
-                                        </td>
-                                        <td>130</td>
-                                        <td>140</td>
-                                        <td>150</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <br>
+                        <h2>Add the toppings that would best suit your creation:</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <table class="table table-borderless table-sm">
+                                    <thead>
+                                        <th scope="col"></th>
+                                        <th scope="col">Small</th>
+                                        <th scope="col">Medium</th>
+                                        <th scope="col">Large</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Mushrooms" id="mushrooms">
+                                                    <label for="mushrooms">Mushrooms</label>
+                                                </div>
+                                            </td>
+                                            <td>50</td>
+                                            <td>60</td>
+                                            <td>70</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Greenpeppers" id="green-peppers">
+                                                    <label for="green-peppers">Green Peppers</label>
+                                                </div>
+                                            </td>
+                                            <td>50</td>
+                                            <td>60</td>
+                                            <td>70</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Blackolives" id="black-olives">
+                                                    <label for="black-olives">Black Olives</label>
+                                                </div>
+                                            </td>
+                                            <td>50</td>
+                                            <td>60</td>
+                                            <td>70</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Pineapples" id="pineapples">
+                                                    <label for="pineapples">Pineapples</label>
+                                                </div>
+                                            </td>
+                                            <td>50</td>
+                                            <td>60</td>
+                                            <td>80</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Pepperoni" id="pepperoni">
+                                                    <label for="pepperoni">Pepperoni</label>
+                                                </div>
+                                            </td>
+                                            <td>60</td>
+                                            <td>90</td>
+                                            <td>100</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-6">
+                                <table class="table table-borderless table-sm">
+                                    <thead>
+                                        <th scope="col"></th>
+                                        <th scope="col">Small</th>
+                                        <th scope="col">Medium</th>
+                                        <th scope="col">Large</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Sausage" id="sausage">
+                                                    <label for="sausage">Sausage</label>
+                                                </div>
+                                            </td>
+                                            <td>80</td>
+                                            <td>90</td>
+                                            <td>120</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Ham" id="ham">
+                                                    <label for="ham">Ham</label>
+                                                </div>
+                                            </td>
+                                            <td>90</td>
+                                            <td>100</td>
+                                            <td>110</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Bacon" id="bacon">
+                                                    <label for="bacon">Bacon</label>
+                                                </div>
+                                            </td>
+                                            <td>100</td>
+                                            <td>120</td>
+                                            <td>140</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Beef" id="beef">
+                                                    <label for="beef">Beef</label>
+                                                </div>
+                                            </td>
+                                            <td>100</td>
+                                            <td>120</td>
+                                            <td>140</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" name="toppings" value="Pork" id="pork">
+                                                    <label for="pork">Pork</label>
+                                                </div>
+                                            </td>
+                                            <td>130</td>
+                                            <td>140</td>
+                                            <td>150</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="form-buttons">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <button type="button" class="btn btn-outline-secondary" id="addPizza">
+                            <button type="button" class="btn btn-outline-secondary" id="newCreation">
                                 <span class="far fa-plus-square"></span> Add another creation
                             </button>
-                            <button type="submit" class="btn btn-secondary checkoutHide">
+                            <button type="submit" class="btn btn-secondary hideCheckOut">
                                 <span class="fas fa-cart-plus"></span> Order
                             </button>
                         </div>
