@@ -9,6 +9,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    color: white;
 }
 .nav-bar {
     width: 80%;
@@ -71,14 +72,23 @@ nav a:hover::before {
     width: 100%;
     height: auto;
 }
-#close-btn {
-    position: absolute;
-    width: 20px;
-    height: 18px;
-    top: 0px;
-    left: 278px;
+.jumbotron {
+    background-color: transparent;
+}
+#ordersForm {
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+}
+.table {
+    color: white;
+}
+.cancelOrder {
     cursor: pointer;
-    z-index:220;
-    background-image: url("../../assets/close.png");
-    background-repeat: no-repeat;
-  }
+}
+.cancelOrder:hover {
+    color: darkred;
+}
+#output {
+    display: none;
+}
